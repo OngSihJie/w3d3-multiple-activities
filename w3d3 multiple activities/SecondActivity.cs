@@ -31,7 +31,7 @@ namespace w3d3_multiple_activities
             txtIDMessage.Text = (Intent.GetIntExtra("ID", 0)).ToString();
 
             txtCourseMessage = FindViewById<TextView>(Resource.Id.txtCourseMessage);
-            txtCourseMessage.Text = Intent.GetStringExtra("Course");
+            txtCourseMessage.Text = Intent.GetStringExtra("Cou");
 
 
         }
